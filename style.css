@@ -1,19 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-}
-
-.button1{
-	height: 55px;
-	width: 250px;
-	border: 0;
-	margin-left: 20px;
-	border-radius: 18px;
-	background-color: #72005F;
-	color: white;
-	font-size: 20px;
-	outline-style: none;
-	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -23,31 +11,21 @@ body{
 	padding: 0;
 	display: flex;
 	justify-content: center;
-	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 }
 
-.container{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 980px;
-	height: 100vh;
-}
-
-.goat{
-	display: flex;
-	align-items: left;
-	justify-content: center;
-	width: 400px;
-	height: 500px;
-}
-
-.text{
-	display: flex;
-	flex-direction: column;
-	text-align: left;
-	margin-bottom: 40px;
+#button1{
+	height: 65px;
+	width: 260px;
+	border: 0;
+	margin-left: 20px;
+	border-radius: 17px;
+	background-color: #72005F;
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+	outline-style: none;
+	cursor: pointer;
 }
 
 h1{
@@ -56,6 +34,30 @@ h1{
 	color: #72005F;
 }
 h2{
-	font-size: 56px;
+	font-size: 52px;
 	color: #BAA193
 }
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 840px;
+	height: 100vh;
+}
+
+.goat{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: 550px;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-bottom: 38px;
+}
+
