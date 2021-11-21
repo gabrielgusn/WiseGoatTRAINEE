@@ -48,12 +48,14 @@
 	width: 150px;
 	margin-left: 50px;
 	margin-top: 30px;
+	justify-content: left;
 }
 
 .advicebg{
-	background-color: #BAA193;
-	width: 800px;
+	background-color: #ebe4e0;
+	width: 950px;
 	display: flex;
 	justify-content: right;
+	justify-items: center;
 }
 
