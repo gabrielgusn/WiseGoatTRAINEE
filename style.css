@@ -34,9 +34,13 @@
 	align-items: center;
 	justify-content: center;
 	width: 400px;
-	height: 550px;
 }
 
+.goat img {
+	animation-name: levitate;
+    animation-iteration-count: infinite;
+    animation-duration: 3.5s;
+}
 .text{
 	display: flex;
 	flex-direction: column;
@@ -45,7 +49,7 @@
 }
 
 .logo{
-	width: 150px;
+	width: 120px;
 	margin-left: 50px;
 	margin-top: 30px;
 	justify-content: left;
@@ -54,14 +58,55 @@
 
 .advicebg{
 	background-color: #ebe4e0;
-	width: 950px;
+	width: 900px;
 	display: flex;
-	justify-content: right;
+	justify-content: space-between;
 	justify-items: center;
+	margin-left: 350px;
+	margin-top: 50px;
+	align-items: center;
+
 }
 
 #links{
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	color: white;
+}
+
+.advicetext{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 70px;
+	align-content: stretch;
+	font-family: 'Roboto', sans-serif;
+	flex-direction: column;
+	width: 400px;
+}
+
+#advice {
+	font-weight: 600;
+	font-size: 50px;
+	color: #72005F;
+	order: 1;
+}
+
+#signature {
+	font-size: 22px;
+	color: #BAA193;
+	display: flex;
+	align-items: flex-end;
+	order: 2;
+	align-self: flex-end;
+	justify-content: flex-end;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.returnbutton{
+	display: flex;
+	align-items: flex-start;
+	justify-content: right;
+	width: 100px;
 }
