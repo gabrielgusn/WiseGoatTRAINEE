@@ -36,11 +36,6 @@
 	width: 400px;
 }
 
-.goat img {
-	animation-name: levitate;
-    animation-iteration-count: infinite;
-    animation-duration: 3.5s;
-}
 .text{
 	display: flex;
 	flex-direction: column;
@@ -61,11 +56,10 @@
 	width: 900px;
 	display: flex;
 	justify-content: space-between;
-	justify-items: center;
 	margin-left: 350px;
 	margin-top: 50px;
-	align-items: center;
-
+	padding: 0;
+	align-items: stretch;
 }
 
 #links{
