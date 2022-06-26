@@ -1,4 +1,4 @@
-#Firts project of the trainee process in Occam Engineering.
+# First project of the trainee process in Occam Engineering.
 
 
 
