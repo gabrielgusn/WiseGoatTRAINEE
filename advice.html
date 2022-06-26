@@ -31,7 +31,7 @@
 		<div class="advicebg">
 			<div class="advicetext">
 				<div id="advice">
-					<p>"It always seems impossible, until it's done."</p>
+					<!--<p>"It always seems impossible, until it's done."</p>-->
 				</div>
 				
 				<div id="signature">
@@ -44,6 +44,22 @@
 			</div>	
 		</div>
 
-
 	</body>
+
+	<script>
+		async function fetchData(){
+			let adviceAPI = await fetch('https://api.adviceslip.com/advice')
+			console.log(adviceAPI)
+			let adviceJson = await adviceAPI.json()
+			console.log(adviceJson.slip.advice)
+			let adviceParagraph = document.getElementById('advice')
+			console.log(adviceParagraph)
+			let pItem = document.createElement('p')
+
+			pItem.innerText = (adviceJson.slip.advice)
+
+			adviceParagraph.appendChild(pItem)
+		}
+	fetchData()
+	</script>
 </html>
